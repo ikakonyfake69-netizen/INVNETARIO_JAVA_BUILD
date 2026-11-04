@@ -8,7 +8,7 @@ public class InventarioTest {
     void calculaSubtotalDeCuatroProductos() {
 
         int resultado = inventario.calcularSubtotal(50,4);
-        assertEquals(200, resultado);
+        assertEquals(201, resultado);
     }
 
 
